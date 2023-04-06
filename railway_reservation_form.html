@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Railway Reservation System</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Include FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style type="text/css">
+.col-centered{
+  float: none !important;
+  margin: 0 auto !important;
+}
+</style>
+</head>
+<body>
+  <div class="container my-5">
+	<div class="row">
+	<div class="col-lg-8 col-md-10 col-sm-12 col-centered">
+    <h1>Railway Reservation System</h1>
+    <form>
+      <div class="form-group">
+        <label for="name"><i class="fas fa-user"></i> Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="email"><i class="fas fa-envelope"></i> Email:</label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+      </div>
+      <div class="form-group">
+        <label for="from"><i class="fas fa-map-marker-alt"></i> From:</label>
+        <input type="text" class="form-control" id="from" placeholder="Enter your departure station">
+      </div>
+      <div class="form-group">
+        <label for="to"><i class="fas fa-map-marker-alt"></i> To:</label>
+        <input type="text" class="form-control" id="to" placeholder="Enter your destination station">
+      </div>
+      <div class="form-group">
+        <label for="date"><i class="far fa-calendar-alt"></i> Date of Journey:</label>
+        <input type="date" class="form-control" id="date" placeholder="Select date of journey">
+      </div>
+      <div class="form-group">
+        <label for="class"><i class="fas fa-ticket-alt"></i> Class:</label>
+        <select class="form-control" id="class">
+          <option value="economy">Economy</option>
+          <option value="business">Business</option>
+          <option value="first">First Class</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="passengers"><i class="fas fa-users"></i> Number of Passengers:</label>
+        <input type="number" class="form-control" id="passengers" placeholder="Enter number of passengers">
+      </div>
+      <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Submit</button>
+    </form>
+  </div>
+</div>
+</div>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Include FontAwesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
